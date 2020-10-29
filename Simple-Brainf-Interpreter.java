@@ -39,7 +39,7 @@ public class Main {
             else if ("[".equals(command)) {
                 int memoryStateSave = memoryState; // Create save in memory position before starting loop.
                 System.out.println(memoryStateSave);
-                String loopCommand = keyboard.nextLine(); // Take in command to run inside loop. For Example +++++++++>-
+                String loopCommand = keyboard.nextLine(); // Take in command to run inside loop. For Example <+++++++++>-
                 boolean finished = false; // Initialize escape variable.
                 while (!finished) {
                     for (char i : loopCommand.toCharArray()) { // Start loop which runs through every letter.
