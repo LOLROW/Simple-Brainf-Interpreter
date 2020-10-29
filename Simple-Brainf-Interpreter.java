@@ -43,7 +43,7 @@ public class Main {
                 boolean finished = false; // Initialize escape variable.
                 while (!finished) {
                     for (char i : loopCommand.toCharArray()) { // Start loop which runs through every letter.
-                        if (memory[memoryStateSave] == 0) { // Check if memory position before looping is 0.
+                        if (memory[memoryStateSave] == 0) { // Check if memory block before looping is 0.
                             finished = true;
                         } else { // Start executing commands.
                             if (i == '+') {
